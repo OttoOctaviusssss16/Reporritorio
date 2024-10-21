@@ -1,0 +1,53 @@
+           ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              display: flex;               
+              justify-content: center;     
+              align-items: center;          
+              overflow: hidden;
+              background-color: #b0b0b0;
+            }
+            li {
+              float: left;
+            font-family: "Gabarito", sans-serif;
+            font-size: 20px;
+            font-style: normal;
+             } 
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px;
+              text-decoration: none;
+            }
+            li a:hover {
+              background-color: #111;
+            }
+            /* Estilo por defecto (modo claro) */
+            body {
+            background-color: white;
+            color: black;
+            transition: background-color 0.3s, color 0.3s;
+            }
+
+            body.dark-mode {
+            background-color: #121212;
+            color: white;
+            }
+
+
+            #toggle-button {
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 20px;
+            border: none;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+             }
+
+            #toggle-button:hover {
+            background-color: #555;
+            }
