@@ -55,4 +55,14 @@
             /*Estilo Divs Productos*/
             #IDDIV1{
               border: 10px solid black;
+              margin-bottom: 0%;
+            }
+            /*Div relativo*/
+            #contenedor {
+              width: 100%; /* ajusta el ancho del contenedor */
+              height: 300px; /* ajusta la altura del contenedor */
+              background-image: url("https://i.imgur.com/oawUy9p.jpeg");
+              background-size: cover; /* ajusta la imagen para cubrir todo el contenedor */
+              background-position: center; /* centra la imagen */
+              border: black solid 2px;
             }
