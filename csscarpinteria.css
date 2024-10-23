@@ -66,3 +66,32 @@
               background-position: center; /* centra la imagen */
               border: black solid 2px;
             }
+            .producto:hover {
+              Transform: scale(1.05);
+            }
+            #titulooferta {
+              position: absolute; top: 400px; left: 15%; 
+              color:crimson; 
+              font-family: Gabarito; 
+              font-size: 50px; 
+              text-shadow: 0 0 10px white; ;
+            }
+
+            .titulos {
+              padding-left: 3%;
+              color:rgb(7, 10, 98); 
+              font-family: Gabarito; 
+              font-size: 50px; 
+              text-shadow: 0 0 10px white; ;
+            }
+            #contenedor2 {
+              width: 100%; /* ajusta el ancho del contenedor */
+              height: 500px; /* ajusta la altura del contenedor */
+              background-image: url("https://cdn.pixabay.com/photo/2016/11/22/23/03/hardwood-1851071_1280.jpg");
+              background-size: cover; /* ajusta la imagen para cubrir todo el contenedor */
+              background-position: center; /* centra la imagen */
+              border: black solid 2px;
+            }
+            h4{
+              font-family: Gabarito;
+            }
