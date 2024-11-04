@@ -114,4 +114,15 @@
               background-size: cover; /* ajusta la imagen para cubrir todo el contenedor */
               background-position: center; /* centra la imagen */
             }
-           
+            label {
+              font-size: 20px;
+              margin-right: 3px;
+              margin-bottom: 10px;
+              margin-top: 10px;
+              font-family: gabarito;
+            }
+            input {
+              font-size: 20px;
+              margin-bottom: 10px;
+              margin-top: 10px;
+            }
