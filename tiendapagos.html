@@ -17,7 +17,7 @@
 <header>
     <div class="Carrito" style="height: auto; width: fit-content; background-color: aliceblue; border: 3px solid black; margin-top: 10px; margin-left: 800px;">
         <h2 class="titulo-carro">Carrito</h2>
-
+        <i class='bx bx-cart' id="logo-carro"></i>
         <div class="Contenido">
 
             <div class="caja-carro">
@@ -76,15 +76,15 @@
 
             const productoCarro = document.createElement('div');
             productoCarro.classList.add('caja-carro');
-            productoCarro.innerHTML =
-                <img src="${producto.imgSrc}" class="carro-img">
-                <div class="detalle-caja">
-                    <div class="producto-carro-titulo">${producto.titulo}</div>
-                    <div class="precio-carro">$${producto.precio}</div>
-                    <input type="number" min="1" value="${producto.cantidad}" class="cantidad-carro">
-                </div>
-                <i class='bx bx-trash-alt remover-carros'></i>
-            ;
+            productoCarro.innerHTML =`
+            <img src="${producto.imgSrc}" class="carro-img">
+                    <div class="detalle-caja">
+                        <div class="producto-carro-titulo">${producto.titulo}</div>
+                        <div class="precio-carro">$${producto.precio}</div>
+                        <input type="number" min="1" value="${producto.cantidad}" class="cantidad-carro">
+                    </div>
+                    <i class='bx bx-trash-alt remover-carros'></i>
+                `;
 
             productoCarro.querySelector('.remover-carros').addEventListener('click', () => {
                 eliminarProducto(index);
@@ -94,7 +94,7 @@
             });
             contenedorCarro.appendChild(productoCarro);
         });
-        totalCarro.textContent = $${total};
+        totalCarro.textContent = '$${total}';
     }
 
     function cambiarCantidad(index, nuevaCantidad) {
