@@ -1,82 +1,91 @@
 <html>
     <head>
         <link rel="stylesheet" href="csscarpinteria.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
  <body class="fondo" style="margin: 0; text-align: center;">
-    <ul>
-        <li class="producto"><a href="tiendavirtual.html">Inicio</a></li>
-        <li class="producto"><a href="tiendavirtualcategorias.html">Categorias</a></li>
-        <li class="producto"><a href="tiendavirtualofertas.html">Ofertas</a></li>
-        <li class="producto"><a href="tiendavirtualcontacto.html">Contacto</a></li>
-       </li>
-       </ul>
+  <ul>
+    <li class="menu"><a href="tiendavirtual.html">Inicio</a></li>
+    <li class="menu"><a href="tiendavirtualcategorias.html">Categorias</a></li>
+    <li class="menu"><a href="tiendavirtualofertas.html">Ofertas</a></li>
+    <li class="menu"><a href="tiendavirtualcontacto.html">Contacto</a></li>
+    <li class="menu"><a href="tiendapagos.html"><i class="bx bx-cart"></i></a></li>
+    </ul>
     <div style="border: solid black 5px;">
     </div>
     <h1 class="titulos" style="text-align: center;">MUEBLES DE LIVING</h1>
     <div style="display: inline-block; text-align: center;">
       <div class="producto" style="height: 300px; width: 300px; border: black solid 5px; background-color: white; text-align: center; display: inline-block; margin: 10px;">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDPuB42p-J3ED2aYqi6QyBCo-yfaefN-Dc5w&s" width="150px" height="150px">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDPuB42p-J3ED2aYqi6QyBCo-yfaefN-Dc5w&s" class="img-producto" width="150px" height="150px">
        <h4 class="titulo-producto">SOFA 3 PLAZAS MADERA 4 ALMOHADONES - NEGRO</h4>
-       <h4 style="color: red;">U$S 309</h4>
+       <span class="precio"><h4 style="color: red;">U$S 309</h4></span>
         <button style="width: 100px;height: 24px;">
           <a href="tiendapagos.html" style="font-family: Gabarito; color:green;">Comprar</a>
+          <i class="bx bx-shopping-bag"></i>
         </button>
       </div>
       <div class="producto" style="height: 300px; width: 300px; border: black solid 5px; background-color: white; text-align: center; display: inline-block; margin: 10px;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvN9940fkokXOCyYL9HyF438aKaD2h5L6YSQ&s" width="150px" height="150px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvN9940fkokXOCyYL9HyF438aKaD2h5L6YSQ&s" class="img-producto" width="150px" height="150px">
         <h4 class="titulo-producto">BUTACA PREMIUM EN MADERA Y TELA - BEIGE</h4>
-        <h4 style="color: red;">U$S 249</h4>
+        <span class="precio"><h4 style="color: red;">U$S 249</h4></span>
         <button style="width: 100px;height: 24px;">
           <a href="tiendapagos.html" style="font-family: Gabarito; color:green;">Comprar</a>
+          <i class="bx bx-shopping-bag"></i>
         </button>
       </div>
       <div class="producto"style="height: 300px; width: 300px; border: black solid 5px;background-color: white; text-align: center; display: inline-block; margin: 10px;">
-        <img src="data:image/jpeg;base64,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" width="150px" height="150px">
+        <img src="data:image/jpeg;base64,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" class="img-producto" width="150px" height="150px">
         <h4 class="titulo-producto">MESA DE MADERA RECTANGULAR SENCILLA</h4>
-        <h4 style="color: red;">U$S 99</h4>
+        <span class="precio"><h4 style="color: red;">U$S 99</h4>
         <button style="width: 100px;height: 24px;">
           <a href="tiendapagos.html" style="font-family: Gabarito; color:green;">Comprar</a>
+          <i class="bx bx-shopping-bag"></i>
         </button>
       </div>
       <div class="producto" style="height: 300px; width: 300px; border: black solid 5px; background-color: white; text-align: center; display: inline-block; margin: 10px;">
-        <img src="https://http2.mlstatic.com/D_NQ_NP_714596-MLU53088819289_122022-O.webp" width="150px" height="150px">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_714596-MLU53088819289_122022-O.webp" class="img-producto" width="150px" height="150px">
         <h4 class="titulo-producto">JUEGO DE COMEDOR MESA +6 SILLAS EN MADERA Y HIERRO</h4>
         <h4 style="color: red;">U$S 499</h4>
         <button style="width: 100px;height: 24px;">
           <a href="tiendapagos.html" style="font-family: Gabarito; color:green;">Comprar</a>
+          <i class="bx bx-shopping-bag"></i>
         </button>
       </div>
       <br>
       <div class="producto" style="height: 300px; width: 300px; border: black solid 5px; background-color: white; text-align: center; display: inline-block; margin: 10px;">
-       <img src="https://casagutierrez.com.uy/cdn/shop/files/rack-de-living-para-tv-madera-negro-vendetta-neg-nat.webp?v=1695847012" width="150px" height="150px">
+       <img src="https://casagutierrez.com.uy/cdn/shop/files/rack-de-living-para-tv-madera-negro-vendetta-neg-nat.webp?v=1695847012" class="img-producto" width="150px" height="150px">
        <h4 class="titulo-producto">MUEBLE PARA TV MADERA - MARRON</h4>
        <h4 style="color: red;">U$S 179</h4>
        <button style="width: 100px;height: 24px;">
          <a href="tiendapagos.html" style="font-family: Gabarito; color:green;">Comprar</a>
+         <i class="bx bx-shopping-bag"></i>
        </button>
       </div>
       <div class="producto"style="height: 300px; width: 300px; border: black solid 5px;background-color: white; text-align: center; display: inline-block; margin: 10px;">
-       <img src="https://i.pinimg.com/236x/04/a5/b1/04a5b1c82d08fdd71bff16aeaa107e93.jpg" width="150px" height="150px">
+       <img src="https://i.pinimg.com/236x/04/a5/b1/04a5b1c82d08fdd71bff16aeaa107e93.jpg" class="img-producto" width="150px" height="150px">
        <h4 class="titulo-producto">TABURETE RÚSTICO BAJO MADERA</h4>
        <h4 style="color: red;">U$S 49</h4>
        <button style="width: 100px;height: 24px;">
          <a href="tiendapagos.html" style="font-family: Gabarito; color:green;">Comprar</a>
+         <i class="bx bx-shopping-bag"></i>
        </button>
       </div>
       <div class="producto"style="height: 300px; width: 300px; border: black solid 5px;background-color: white; text-align: center; display: inline-block; margin: 10px;">
-       <img src="https://i.pinimg.com/236x/99/de/47/99de475c5045b03c6af6c5cc1af701b1.jpg" width="150px" height="150px">
+       <img src="https://i.pinimg.com/236x/99/de/47/99de475c5045b03c6af6c5cc1af701b1.jpg" class="img-producto" width="150px" height="150px">
        <h4 class="titulo-producto">SOFA 1 PLAZA MADERA</h4>
        <h4 style="color: red;">U$S 119</h4>
        <button style="width: 100px;height: 24px;">
          <a href="tiendapagos.html" style="font-family: Gabarito; color:green;">Comprar</a>
+         <i class="bx bx-shopping-bag"></i>
        </button>
       </div>
       <div class="producto"style="height: 300px; width: 300px; border: black solid 5px;background-color: white; text-align: center; display: inline-block; margin: 10px;">
-       <img src="https://i.pinimg.com/236x/8c/56/bb/8c56bb4b2346c9070d0c4af11707e9b9.jpg" width="150px" height="150px">
+       <img src="https://i.pinimg.com/236x/8c/56/bb/8c56bb4b2346c9070d0c4af11707e9b9.jpg" class="img-producto" width="150px" height="150px">
        <h4 class="titulo-producto">MESA RATONA EN MADERA Y VIDRIO</h4>
        <h4 style="color: red;">U$S 199</h4>
        <button style="width: 100px;height: 24px;">
          <a href="tiendapagos.html" style="font-family: Gabarito; color:green;">Comprar</a>
+         <i class="bx bx-shopping-bag"></i>
        </button>
       </div>
     </div>
