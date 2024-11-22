@@ -51,11 +51,11 @@
             }
             /*Div relativo*/
             #contenedor {
-              width: 100%; /* ajusta el ancho del contenedor */
-              height: 300px; /* ajusta la altura del contenedor */
+              width: 100%; 
+              height: 300px; 
               background-image: url("https://mimoondo.com/wp-content/uploads/2024/05/dd.jpg");
-              background-size: cover; /* ajusta la imagen para cubrir todo el contenedor */
-              background-position: center; /* centra la imagen */
+              background-size: cover; 
+              background-position: center; 
               border: black solid 2px;
             }
             .producto:hover {
@@ -78,11 +78,11 @@
               text-shadow: 0 0 10px white; ;
             }
             #contenedor2 {
-              width: 100%; /* ajusta el ancho del contenedor */
-              height: 450px; /* ajusta la altura del contenedor */
+              width: 100%; 
+              height: 450px; 
               background-image: url("https://static.vecteezy.com/system/resources/previews/002/144/825/large_2x/wood-textures-background-free-photo.jpg");
-              background-size: cover; /* ajusta la imagen para cubrir todo el contenedor */
-              background-position: center; /* centra la imagen */
+              background-size: cover; 
+              background-position: center; 
               border: black solid 2px;
               text-align: center;
             }
@@ -114,8 +114,8 @@
               width: 100%;
               height: 100%;
               background-image: url("https://static.vecteezy.com/system/resources/previews/002/144/825/large_2x/wood-textures-background-free-photo.jpg");
-              background-size: cover; /* ajusta la imagen para cubrir todo el contenedor */
-              background-position: center; /* centra la imagen */
+              background-size: cover; 
+              background-position: center; 
             }
             label {
               font-size: 20px;
