@@ -57,7 +57,7 @@
             }
             .producto:hover {
               Transform: scale(1.05);
-              transition-duration: 1s;
+              transition-duration: .5s;
             }
             #titulooferta {
               position: absolute; top: 400px; left: 15%; 
@@ -125,8 +125,4 @@
               font-size: 20px;
               margin-bottom: 10px;
               margin-top: 10px;
-            }
-            #Carrito{
-              border: #111;
-              background-color: aliceblue;
             }
