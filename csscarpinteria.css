@@ -1,4 +1,7 @@
           @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+          meta charset{ 
+            caret: utf-8;
+          }
            ul {
               list-style-type: none;
               margin: 0;
@@ -50,7 +53,7 @@
             #contenedor {
               width: 100%; /* ajusta el ancho del contenedor */
               height: 300px; /* ajusta la altura del contenedor */
-              background-image: url("https://i.imgur.com/oawUy9p.jpeg");
+              background-image: url("https://mimoondo.com/wp-content/uploads/2024/05/dd.jpg");
               background-size: cover; /* ajusta la imagen para cubrir todo el contenedor */
               background-position: center; /* centra la imagen */
               border: black solid 2px;
